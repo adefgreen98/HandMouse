@@ -6,11 +6,12 @@ to install required packages.
 
 
 # Keymap
-Q --> quit the program
-S --> save current color threshold
-R --> reset mouse position at (0,0)
-C --> activate/deactivate threshold-choice mode
-G --> emergency deactivation of gesture mode
+
+Q --> quit the program<br/>
+S --> save current color threshold<br/>
+R --> reset mouse position at (0,0)<br/>
+C --> activate/deactivate threshold-choice mode<br/>
+G --> emergency deactivation of gesture mode<br/>
 
 
 # SIV_Project
@@ -33,20 +34,20 @@ To deactivate the color-threshold choice mode, press again the 'C' button.
 
 To activate the 'gesture mode', the user should stay still for approximately 1-2 seconds. 
 To deactivate the 'gesture mode', one can either use the 5-fingers (open hand) gesture or press the 'G' key.
-Recognized gestures are:
-2 fingers --> Left Click Down
-3 fingers --> Right Click Down
-4 fingers --> Click Up
-5 fingers --> Close Gesture Mode
+Recognized gestures are:<br/>
+2 fingers --> Left Click Down<br/>
+3 fingers --> Right Click Down<br/>
+4 fingers --> Click Up<br/>
+5 fingers --> Close Gesture Mode<br/>
 
-Once initialized, this program will open a  window with 3 frames:
-- the first showing the GoodFeaturesToTrack (moving) points over the masked image;
-- the second showing the result of the convex hull to detect gesture, only when gesture mode is active;
-- the third showing predicted mouse motion.
+Once initialized, this program will open a  window with 3 frames:<br/>
+- the first showing the GoodFeaturesToTrack (moving) points over the masked image;<br/>
+- the second showing the result of the convex hull to detect gesture, only when gesture mode is active;<br/>
+- the third showing predicted mouse motion.<br/>
 
 To quit the program, press Q.
 
 # Credits
-Simone Caldarella (GoodFeaturesToTrack, tracking and refactoring)
-Federico Pedeni (Color thresholding and background subtraction)
-Gaia Trebucchi (Convex Hull and gesture detection)
+Simone Caldarella (GoodFeaturesToTrack, tracking and refactoring)<br/>
+Federico Pedeni (Color thresholding and background subtraction)<br/>
+Gaia Trebucchi (Convex Hull and gesture detection)<br/>
