@@ -13,6 +13,8 @@ C --> activate/deactivate threshold-choice mode
 G --> emergency deactivation of gesture mode
 
 
+# SIV_Project
+
 # Usage
 The program can be launched with 'python track.py' from the correct environment.
 It will detect hand motion and gestures, then show both of these onto 2 separate windows.
