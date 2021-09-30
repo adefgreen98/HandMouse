@@ -14,7 +14,7 @@ C --> activate/deactivate threshold-choice mode<br/>
 G --> emergency deactivation of gesture mode<br/>
 
 
-# SIV_Project
+# HandMouse
 
 # Usage
 The program can be launched with 'python track.py' from the correct environment.
