@@ -1,12 +1,18 @@
 
-# Installation
+# HandMouse
+Project for the Signal, Image & Video course of the AIS master degree at the University of Trento (2020-2021). 
+The aim of the project was to develop a lightweight hand-tracking system, without the aid neural-based AI, that allowed to control the mouse pointer using only the PC camera. The program is capable also of recognizing gestures to link them to the main mouse commands (e.g. click, drag, release).
+
+<video src='https://github.com/adefgreen98/HandMouse/blob/main/Demo.mp4' width=300/> 
+
+## Installation
 Please use the command:
         'pip install -r requirements.txt'
 to install required packages.
 
 
-# Keymap
-
+## Keymap
+Commands to use when run in real time:
 Q --> quit the program<br/>
 S --> save current color threshold<br/>
 R --> reset mouse position at (0,0)<br/>
@@ -14,9 +20,8 @@ C --> activate/deactivate threshold-choice mode<br/>
 G --> emergency deactivation of gesture mode<br/>
 
 
-# HandMouse
 
-# Usage
+## Usage
 The program can be launched with 'python track.py' from the correct environment.
 It will detect hand motion and gestures, then show both of these onto 2 separate windows.
 
@@ -47,7 +52,7 @@ Once initialized, this program will open a  window with 3 frames:<br/>
 
 To quit the program, press Q.
 
-# Credits
+## Credits
 Simone Caldarella (GoodFeaturesToTrack, tracking and refactoring)<br/>
 Federico Pedeni (Color thresholding and background subtraction)<br/>
 Gaia Trebucchi (Convex Hull and gesture detection)<br/>
