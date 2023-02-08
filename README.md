@@ -3,8 +3,8 @@
 Project for the Signal, Image & Video course of the AIS master degree at the University of Trento (2020-2021). 
 The aim of the project was to develop a lightweight hand-tracking system, without the aid neural-based AI, that allowed to control the mouse pointer using only the PC camera. The program is capable also of recognizing gestures to link them to the main mouse commands (e.g. click, drag, release).
 
-### Video
-https://github.com/adefgreen98/HandMouse/blob/main/Demo.mp4
+![Demo](https://user-images.githubusercontent.com/40888990/217614558-b533a822-c204-446c-b451-468f225d6246.gif)
+
 
 ## Installation
 Please use the command:
